@@ -12,3 +12,8 @@ JOHN THE RIPPER,
 NETCAT,
 SQLMAP,
 SETOOLKIT,
+
+
+
+**FOR KALI LINUX**
+To run in terminal type: git clone https://github.com/DaddyV-67/DVHACK-
