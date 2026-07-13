@@ -18,4 +18,4 @@ SETOOLKIT,
 **FOR KALI LINUX**
 To download, in terminal type: `git clone https://github.com/DaddyV-67/DVHACK-`
 
-to run cd to the folder **DVHACK-** and type `python3 DVHACK_V1.py`
+to run cd to the folder **DVHACK-** and type `python3 DVHACK_V2.py`
