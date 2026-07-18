@@ -1,7 +1,7 @@
 DV HACK MULTI TOOL BY DADDYV
 
 TO  SELECT AN OPTION TYPE THE NUMBER NEXT TO THE TOOL YOU WANT TO USE
-14  OPTIONS
+21  OPTIONS
 ZPHISHER, 
 METASPLOIT,
 MSFVENOM PAYLOAD CREATOR,
@@ -14,10 +14,17 @@ SQLMAP,
 SETOOLKIT,
 DDoS Ripper,
 THC HYDRA,
-Burp Suite
-Aircrack-ng
+Burp Suite,
+Aircrack-ng,
+fern wifi cracker,
+Recon-ng,
+HASHCAT,
+MASSCAN,
+theHarvester,
+MY PORT SCANNER,
 
-**FOR KALI LINUX**
+
+**DESIGNED FOR KALI LINUX**
 To download, in terminal type: `git clone https://github.com/DaddyV-67/DVHACK-`
 
 To run, cd to the folder **DVHACK-** and type `python3 DVHACK_V2.py`
